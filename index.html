@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Talecraft avax avalanche metaverse game craft guide">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">    
+    <!-- <link rel="stylesheet" media="(max-width:1480px)" href="/css/laptop.css"> -->
+    <link rel="stylesheet" media="(max-width:1280px)" href="/css/tablet.css">
+    <link rel="stylesheet" media="(max-width:653px)" href="/css/mobile.css">    
+    
+    <title>TaleCraft Guide</title>    
+</head>
+
+<body>
+
+    <header>
+        <div class="container_navbar">
+            <div class="head_web">
+                <img src="/Assets/logo.webp" width="170px" height="170px" onClick="window.location.reload();">
+                <h1>TALECRAFT GUIDE</h1>
+                <button onClick="window.location.reload();">HOME</button>
+            </div>
+            <div class="nav_img">
+                <a href="javascript:card_calc()"><img src="/Assets/path1-removebg.png" width="75%" /></a>
+                <a href="javascript:card_number()"><img src="/Assets/path2-removebg.png" width="75%" /></a>
+                <a href="javascript:roadmap()"><img src="/Assets/path3-removebg.png" width="75%" /></a>               
+            </div>
+            
+        </div>
+    </header>
+    <div class="container_content">
+        <div class="info" id="info">
+            <p>TaleCraft is a Gaming NFT project on Avalanche. It is a card game that you can mint NFT by making various crafts with 4 main cards of element and sell these cards on the marketplace. In the TaleCraft, the 4 main elements are given in Alchemist Chests that will be sold weekly. So the cards are limited. It has a deflationary structure in itself. The cards used in each crafting are burnt.</p>
+            <p>The types of alchemist cards are initially 160 types.</p>
+            <p>These 160 cards have 5 different tiers. These tiers are respectively stone tier, iron tier, silver tier, gold tier, philosopher's stone tier.</p>
+            <p>The levels of the cards are determined by the difficulty and rarity of the card's production.</p>
+            <p>Only 4 out of 160 cards, the 4 main elements, will be available on a weekly basis. All remaining cards can be crafted by users.</p>
+        </div>
+        <div class="card_calc" id="craft_calc">
+            <h3>Cards</h3>
+            <form id="formdiv">             
+              <input type="number" class="form-control" placeholder="Earth" id="earthcard">           
+              <input type="number" class="form-control" placeholder="Water" id="watercard">
+              <input type="number" class="form-control" placeholder="Fire" id="firecard">
+              <input type="number" class="form-control" placeholder="Air" id="aircard">                    
+            <button type="submit" class="btn btn-secondary">ShowCards</button>
+          </form>
+        </div>
+        <div class="cardlist" id="card_images">
+
+        </div>
+        <div class="container_dropdown" id="container_dropdown">
+            <div class="head_dropdown">
+              <h2>Choose Card</h2>
+            </div>
+            <div class="dropdown_menu">
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Phi Stone Tier
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="javascript:CraftPhi('joe')">joe  318</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('uniswap')">uniswap  310</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('bull')">bull  300</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('pancake')">pancake  265</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('xava')">xava  236</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('ethereum')">ethereum  228</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('doge')">doge  223</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('cz')">cz  231</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('cake')">cake  195</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('trader')">trader  189</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('pangolin')">pangolin  186</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('bitcoin')">bitcoin  184</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('bananabread')">bananabread  173</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('el33th4xorsAVAX')">el33th4xorsAVAX  173</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('lydia')">lydia  171</a>
+                  <a class="dropdown-item" href="javascript:CraftPhi('dog')">dog  153</a>       
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gold Tier
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="javascript:CraftGold('avax')">avax 129</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('candle')">candle 122</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('wax')">wax 121</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('shield')">shield 120</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('wolf')">wolf 119</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('blockchain')">blockchain 114</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('hamburger')">hamburger 112</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('parachute')">parachute 107</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('banana')">banana 99</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('wine')">wine 96</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('godzilla')">godzilla 90</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('astronout')">astronout 86</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('soda')">soda 84</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('beer')">beer 82</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('unicorn')">unicorn 82</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('cashmere')">cashmere 78</a>
+                  <a class="dropdown-item" href="javascript:CraftGold('moon')">moon 77</a> 
+                  <a class="dropdown-item" href="javascript:CraftGold('trex')">trex 76</a>                    
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Silver Tier
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="javascript:CraftSilver('piggybank')">piggybank 75</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('bread')">bread 74</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('airplane')">airplane 74</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('dough')">dough 73</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('cheese')">cheese 72</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('flour')">flour 72</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('internet')">internet 70</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('rabbit')">rabbit 70</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('beehive')">beehive 69</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('reptile')">reptile 66</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('pigeon')">pigeon 61</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('christmastree')">christmastree 61</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('monkey')">monkey 59</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('milk')">milk 58</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('horse')">horse 58</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('alcohol')">alcohol 56</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('penguin')">penguin 56</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('petroleum')">petroleum 54</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('fossil')">fossil 52</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('city')">city 52</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('bee')">bee 52</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('pirate')">pirate 51</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('shuriken')">shuriken 47</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('windmill')">windmill 46</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('oxygen')">oxygen 45</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('mountaingoat')">mountaingoat 45</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('supernova')">supernova 44</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('chain')">chain 44</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('proffessor')">proffessor 44</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('wheel')">wheel 43</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('carbondioxiodie')">carbondioxiodie 42</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('wildanimal')">wildanimal 42</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('money')">money 42</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('leather')">leather 42</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('juice')">juice 42</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('fruit')">fruit 40</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('star')">star 40</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('sailor')">sailor 40</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('rope')">rope 40</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('dinazorus')">dinazours 38</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('meat')">meat 38</a>
+                  <a class="dropdown-item" href="javascript:CraftSilver('goat')">goat 38</a>  
+                  <a class="dropdown-item" href="javascript:CraftSilver('cow')">cow 35</a>  
+                  <a class="dropdown-item" href="javascript:CraftSilver('computer')">computer 35</a>               
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Iron Tier
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="javascript:CraftBronze('forest')">forest 34</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('bone')">bone 34</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('pig')">pig 33</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('fabric')">fabric 33</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('paper')">paper 32</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('livestock')">livestock 31</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('boat')">boat 31</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('wood')">wood 30</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('nerd')">nerd 29</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('carrot')">carrot 28</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('hay')">hay 27</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('skyscraper')">skyscraper 26</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('wheat')">wheat 26</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('night')">night 25</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('lizard')">lizard 24</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('rainbow')">rainbow 24</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('farmer')">farmer 23</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('light')">light 22 </a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('snowman')">snowman 22</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('house')">house 21</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('thread')">thread 20</a>        
+                  <a class="dropdown-item" href="javascript:CraftBronze('glasses')">glasses 20</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('corpse')">corpse 20</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('egg')">egg 18</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('tree')">tree 17</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('lightbulb')">lightbulb 16</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('telescope')">telescope 15</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('avalanche')">avalanche 15</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('time')">time 14</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('field')">field 14</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('excalibur')">excalibur 14</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('arctic')">arctic 14</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('tool')">tool 13</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('snow')">snow 13</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('sword')">sword 11</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('gun')">gun 11</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('cold')">cold 11</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('day')">day 11</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('glass')">glass 10</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('gold')">gold 10</a> 
+                  <a class="dropdown-item" href="javascript:CraftBronze('flower')">flower 10</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('bird')">bird 9</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('steel')">steel 9</a>
+                  <a class="dropdown-item" href="javascript:CraftBronze('human')">human 9</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Stone Tier
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">             
+                  <a class="dropdown-item" href="javascript:CraftIron('life')">life 8</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('brick')">brick 8</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('diamond')">diamond 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('blade')">blade 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('cotton')">cotton 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('mountain')">mountain 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('bullet')">bullet 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('garden')">garden 7</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('sun')">sun 6</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('swamp')">swamp 6</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('electricity')">electricity 6</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('earthquake')">earthquake 6</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('sky')">sky 5</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('rust')">rust 5</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('coal')">coal 5</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('wave')">wave 5</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('cloud')">cloud 4</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('metal')">metal 4</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('grass')">grass 4</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('sand')">sand 4</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('explosion')">explosion 4</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('wind')">wind 3</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('stone')">stone 3</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('steam')">steam 3</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('plant')">plant 3</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('gunpowder')">gunpowder 3</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('dust')">dust 2</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('energy')">energy 2</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('lava')">lava 2</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('pressure')">pressure 2</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('rain')">rain 2</a> 
+                  <a class="dropdown-item" href="javascript:CraftIron('mud')">mud 2</a>
+                  <a class="dropdown-item" href="javascript:CraftIron('sea')">sea 2</a> 
+                </div>
+              </div> 
+            </div>
+           
+    </div>
+    
+    <div class="images" id="images">
+        <div>
+            <img src="/Assets/earth.jpeg" width="75px" height="150px" alt="earth">
+            <span>EARTH</span>
+            <h3 id="earth"></h3>
+        </div>         
+        <div>
+          <img src="/Assets/water.jpeg" width="75px" height="150px" alt="water">
+          <span>WATER</span>
+          <h3 id="water"></h3>
+        </div> 
+        <div>
+          <img src="/Assets/fire.jpeg" width="75px" height="150px" alt="fire">
+          <span>FIRE</span>
+          <h3 id="fire"></h3>
+        </div>  
+        <div>
+          <img src="/Assets/air.jpeg" width="75px" height="150px" alt="air">
+          <span>AIR</span>
+          <h3 id="air"></h3>
+        </div>           
+    </div>        
+               
+    <div class="tree" id="cardtree">
+        <h2>ROADMAP</h2>
+        <h2 id="kart"></h2>
+        <button class="zoom" onclick="zoomIn()">ZoomIN</button>
+        <button class="zoom" onclick="zoomOut()">ZoomOUT</button>
+    </div>
+    <div id="roadmap">
+      <h4>CLİCK SOME CARDS TO SEE ROADMAP</h4>
+    </div>
+    
+
+
+    <section>
+        <div class="container-footer">
+            <div class="mail">                
+                <img src="/Assets/qrcode.jpeg">
+                <h6>Donation-This is The Way.. 0xf2A11e0A194cCa68e805d10fD56281cE64dE001F</h6>
+                              
+            </div>
+            <div class="footer">
+                <div class="link">
+                    <a href="https://twitter.com/MrYesiller" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <h5>TWITTER</h5>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/mryesiller" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2x"></i></a>
+                    <h5>GİTHUB</h5>       
+                </div>
+                <!-- <footer>
+                  <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=gVphyLMvh5fka3XBSDqdtt9EtWITW2T91Maob06rTfNgrbThZBaOorlFBCKg"></script></span>                                      
+                </footer>               -->
+            </div>         
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+</html>
