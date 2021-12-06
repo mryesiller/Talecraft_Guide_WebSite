@@ -6,7 +6,7 @@ Community Guide Website for metaverse game Talecraft
 
 ![](website2.png)
 
-*----------------
+
 
 ![](website1.png)
 
