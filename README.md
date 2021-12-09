@@ -14,13 +14,6 @@ Community Guide Website for metaverse game Talecraft
 * **[Göksel Yesiller](https://www.linkedin.com/in/goksel-yesiller-830580204)**
 
 
-### Obtain the Codebase
-* Clone from github
-    ```
-    git clone https://github.com/mryesiller/binance-api-nodejs.git
-    ```
-* Download a zip of the [latest release](https://github.com/mryesiller/binance-api-nodejs/releases/latest)
-
 ## Donations
 I don't expect any compensation, but if you appreciate my work feel free to donate to the following addresses:
 
