@@ -20,4 +20,4 @@ I don't expect any compensation, but if you appreciate my work feel free to dona
 * AVAX (AVAX-C-CHAIN): 0xf2A11e0A194cCa68e805d10fD56281cE64dE001F
 
 ## License
-This project is licensed under mit
+This project is licensed under MIT
