@@ -13,6 +13,8 @@ Community Guide Website for metaverse game Talecraft
 ## Authors
 * **[Göksel Yesiller](https://www.linkedin.com/in/goksel-yesiller-830580204)**
 
+##NOTES
+main.js and app.js file is to big so i deleted them.
 
 ## Donations
 I don't expect any compensation, but if you appreciate my work feel free to donate to the following addresses:
